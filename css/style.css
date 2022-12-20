@@ -10,6 +10,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+
 /* FIN DE Estilos generales */
 
 /*Estilos del header*/
@@ -19,17 +28,6 @@ header {
     padding: 10px 50px;
 }
 
-/* FIN DE Estilos del header*/
-
-
-.img-container {
-    display: flex;
-}
-
-.img-container img {
-    width: 100%;
-}
-
 #logo {
     width: 50px;
 }
@@ -37,4 +35,30 @@ header {
 #logo img {
     border-radius: 100%;
     border: 1px solid #1F2430;
+}
+/* FIN DE Estilos del header*/
+
+
+/* Estilos del hero */
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .info-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .info-container #foto {
+    width: 200px;
+}
+
+#hero .info-container #foto img {
+    border-radius: 100%;
 }
