@@ -7,7 +7,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
 }
 
 .img-container {
@@ -42,10 +48,19 @@ header {
 /* Estilos del hero */
 #hero {
     position: relative;
+    background-color: #000b10c1;
+    background-image: url("../img/computadora.jpg");
+
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
 }
 
 #hero #computadora {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 100%;
 }
 
