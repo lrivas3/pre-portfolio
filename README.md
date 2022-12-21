@@ -5,6 +5,6 @@ This is a project built to learn some of the basics on how to build a website an
 
 ### Built With
 
-HTML 
-CSS 
+- HTML 
+- CSS 
 
