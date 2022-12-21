@@ -48,7 +48,7 @@ header {
 /* Estilos del hero */
 #hero {
     position: relative;
-    background-color: #000b10c1;
+    background-color: #000b104e;
     background-image: url("../img/computadora.jpg");
 
     padding-top: 300px;
@@ -57,6 +57,7 @@ header {
     background-size: cover;
 
     background-blend-mode: multiply;
+
 }
 
 #hero #computadora {
