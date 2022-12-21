@@ -9,6 +9,8 @@
 body {
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-size: 20px;
+    background-color: #0b0b0b;
+    color: aliceblue;
 }
 
 h1 {
@@ -48,7 +50,7 @@ header {
 /* Estilos del hero */
 #hero {
     position: relative;
-    background-color: #000b104e;
+    background-color: #000b1092;
     background-image: url("../img/computadora.jpg");
 
     padding-top: 300px;
@@ -101,7 +103,7 @@ header {
 /* Estilos del main */
 
 main {
-    padding: 100px;
+    padding: 150px;
 }
 
 main .social-icons {
@@ -112,7 +114,7 @@ main .social-icons {
 }
 
 main .social-icons li {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 main .social-icons .social-icon {
