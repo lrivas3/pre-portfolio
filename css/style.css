@@ -55,16 +55,14 @@ header {
     left: 0;
     transform: translateY(-50%);
     display: flex;
-    flex-flow: wrap; /*para que la imagen cambie de lugar en mobil*/
+    /*flex-flow: wrap; para que la imagen cambie de lugar en mobil*/
     width: 100%;
     color: #fff;
     padding: 0 50px;
 }
 
 #hero .info-container #foto {
-    justify-content: center;
-    width: 250px;
-    height: 100%;
+    width: 200px;
 }
 
 #hero .info-container #foto img {
@@ -72,9 +70,10 @@ header {
 }
 
 #hero .info-container .informacion {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 20px;
     font-weight: bold;
+    width: calc(100% - 200px);
 }
 
 #hero .info-container .informacion span {
@@ -119,11 +118,11 @@ main .social-icons #Github {
 }
 
 main .social-icons #Mastodon {
-    background: #1da1f2;
+    background: #6364ff;
 }
 
 main .social-icons #Twitter {
-    background: #f70000;
+    background: #1da1f2;
 }
 
 main .social-icons #Platzi {
